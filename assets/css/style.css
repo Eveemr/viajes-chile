@@ -1,3 +1,7 @@
+.bgblack {
+    background-color: black;
+}
+
 .logo {
     width: 1.6rem;
 }
@@ -5,4 +9,10 @@
 .bgcolor.scrolled {
     background-color: rgba(0, 0, 0, 0.692);
 
+}
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 2px solid #25a2b7;
 }
