@@ -10,13 +10,24 @@ body {
     width: 1.6rem;
 }
 
-.bgcolor.scrolled {
-    background-color: rgba(0, 0, 0, 0.692);
+.bgcolor {
+    background-color: transparent !important;
+}
 
+.bgcolor.scrolled {
+    background-color: rgba(0, 0, 0, 0.692) !important;
 }
 
 hr {
     height: 0px;
     border: none;
     border-top: 2px solid #25a2b7;
+}
+
+.iconos a {
+    color: white;
+}
+
+.altura {
+    height: 11.5rem;
 }

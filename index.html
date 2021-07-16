@@ -37,16 +37,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#about">Inicio</a>
+                    <a class="nav-link" href="#inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#work">Quienes somos</a>
+                    <a class="nav-link" href="#somos">Quienes somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#work">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -56,7 +56,7 @@
 
     <!--Carousel de Bootstrap-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div id="inicio" class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
           </div>
@@ -77,9 +77,9 @@
         </a>
       </div>
 
-      <!--Seccion quiénes somos-->
-      <section class="container-fluid bgblack text-white pt-3 pb-5">
-        <h2 class="text-center h4 pt-5 pb-3 font-weight-normal">¿Quiénes somos?</h2>
+    <!--Seccion quiénes somos-->
+    <section class="container-fluid bgblack text-white pt-3 pb-5 d-none d-md-block">
+        <h2 id="somos" class="text-center h4 pt-5 pb-3 font-weight-normal">¿Quiénes somos?</h2>
         <hr class="d-none d-md-block pb-3 mx-3">
 
         <div class="row mx-4">
@@ -110,13 +110,13 @@
 
     <!--Cards Destacados-->
     <section class="container-fluid bgblack text-white py-3">
-        <h2 class="text-center h4 pt-5 pb-3 font-weight-normal">Destacados</h2>
+        <h2 id="destacados" class="text-center h4 pt-5 pb-3 font-weight-normal">Destacados</h2>
         <hr>
         <div class="row my-5 mx-4">
 
             <div class="col-12 col-md-3 pt-5">
                 <div class="card bg-info h-100">
-                <img src="assets/img/card1.jpg" class="card-img-top" alt="colaciones">
+                <img src="assets/img/card1.jpg" class="card-img-top img-fluid altura" alt="colaciones">
                 <div class="card-body">
                     <h5 class="card-title font-weight-normal">Lorem ipsum, dolor sit amet</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -126,7 +126,7 @@
 
             <div class="col-12 col-md-3 pt-5">
                 <div class="card bg-info h-100">
-                <img src="assets/img/card2.jpg" class="card-img-top" alt="colaciones">
+                <img src="assets/img/card2.jpg" class="card-img-top img-fluid altura" alt="colaciones">
                 <div class="card-body">
                     <h5 class="card-title font-weight-normal">consectetur adipisicing elit.</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -136,7 +136,7 @@
 
             <div class="col-12 col-md-3 pt-5">
                 <div class="card bg-info h-100">
-                <img src="assets/img/card3.jpg" class="card-img-top" alt="colaciones">
+                <img src="assets/img/card3.jpg" class="card-img-top img-fluid altura" alt="colaciones">
                 <div class="card-body">
                     <h5 class="card-title font-weight-normal">Sed do eiusmod tempor incididunt ut Labore</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -146,7 +146,7 @@
 
             <div class="col-12 col-md-3 pt-5">
                 <div class="card bg-info h-100">
-                <img src="assets/img/card4.jpg" class="card-img-top" alt="colaciones">
+                <img src="assets/img/card4.jpg" class="card-img-top img-fluid altura" alt="colaciones">
                 <div class="card-body">
                     <h5 class="card-title font-weight-normal">Ut enim ad minim veniam</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -158,20 +158,20 @@
 
     <!--Formulario de contacto-->
     <section class="container-fluid bgblack text-white pt-3 pb-5">
-        <h2 class="text-center h4 pt-5 pb-3 font-weight-normal">Contacto</h2>
+        <h2 id="contacto" class="text-center h4 pt-5 pb-3 font-weight-normal">Contacto</h2>
         <hr class="pb-3">
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/BbFvjn6G?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        <div class="typeform-widget px-5" data-url="https://form.typeform.com/to/BbFvjn6G?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
 
     <!--Footer-->
     <footer class="container-fluid bg-info text-white text-right py-3">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center iconos">
             <h3 class="h4 p-1 pr-5">VIAJES CHILE</h3>
             <div class="pl-5 text-left d-flex text-right">
-                <i class="fab fa-github-square fa-2x p-1"></i>
-                <i class="fab fa-linkedin fa-2x p-1"></i>
-                <i class="fab fa-twitter-square fa-2x p-1"></i>
-                <i class="fab fa-facebook-square fa-2x p-1"></i>
+                <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-2x p-1"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x p-1"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-2x p-1"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x p-1"></i></a>
          </div>
           </div>
     </footer>
