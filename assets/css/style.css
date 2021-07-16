@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif; 
-  }
+}
 
 .bgblack {
     background-color: black;
@@ -30,4 +30,27 @@ hr {
 
 .altura {
     height: 11.5rem;
+}
+
+@media screen and (max-width: 320px) {
+
+    h1 {
+        text-align: left;
+        line-height : 2.9rem;
+        padding-left: 0rem;
+    }
+
+
+    .altura {
+        height: auto;
+    }
+
+    .viajes {
+        font-size: 0.75rem !important;
+    }
+
+    .fa-2x {
+        font-size: 0.8rem !important;
+    }
+
 }
