@@ -25,6 +25,10 @@ body {
     height: 20vh;
 }
 
+.fa-2x{
+  color:white!important;
+}
+
 @media screen and (max-width: 320px) {
 
    /* h1 {
@@ -45,5 +49,7 @@ body {
     .card-img-top {
         height: 40vh;
     }
-
+    
+ 
+ 
   }
