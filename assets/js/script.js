@@ -20,6 +20,23 @@ $(function(){
     });
 
     //tooltips
-  $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="tooltip"]').tooltip()
 
-  });
+    //Esconder y mostrar cards
+    $("#carta").click(function(){
+        $('#contenido').toggle(500);
+    });
+
+    $("#carta2").click(function(){
+        $('#contenido2').toggle(500);
+    });
+
+    $("#carta3").click(function(){
+        $('#contenido3').toggle(500);
+    });    
+
+    $("#carta4").click(function(){
+        $('#contenido4').toggle(500);
+    });
+
+});
