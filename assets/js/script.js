@@ -16,7 +16,7 @@ $(function(){
 
     //Cambio de color al hacer Scroll
     $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 800);
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 700);
     });
 
     //tooltips
@@ -24,19 +24,21 @@ $(function(){
 
     //Esconder y mostrar cards
     $("#carta").click(function(){
-        $('#contenido').toggle(500);
+        $('#contenido').slideToggle(500);
     });
 
     $("#carta2").click(function(){
-        $('#contenido2').toggle(500);
+        $('#contenido2').slideToggle(500);
     });
 
     $("#carta3").click(function(){
-        $('#contenido3').toggle(500);
+        $('#contenido3').slideToggle(500);
     });    
 
     $("#carta4").click(function(){
-        $('#contenido4').toggle(500);
+        $('#contenido4').slideToggle(500);
     });
 
+    //popovers
+    $('[data-toggle="popover"]').popover()
 });
