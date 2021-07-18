@@ -1,56 +1,58 @@
+/*propiedad del body*/
 body {
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     background-color: black;
-  }
+}
 
+/*dimensiones logo de viajes chile*/
 .logo {
-    width: 2.1rem;
+    width: 1.6rem;
 }
 
-.carousel-inner {
-    height: 65vh;
-}
-
-.carousel-item {
-    position: absolute;
-    top: 45%;
-    margin-top: -40vh;
-}
-
-.header .navbar {
+/*propiedad para el cambio de color del van, para transparente y scrolled*/
+.bgcolor {
     background-color: transparent !important;
-  }
-
-.card-img-top {
-    height: 20vh;
-    
 }
 
-.fa-2x{
-  color:white!important;
+
+.bgcolor.scrolled {
+    background-color: rgba(0, 0, 0, 0.692) !important;
+}
+
+/*propiedades de la línea*/
+hr {
+    height: 0px;
+    border: none;
+    border-top: 2px solid #25a2b7;
+}
+
+/*color de link de los íconos*/
+.iconos a {
+    color: white;
+}
+
+
+/*propiedad para dar altura a la imagen de la card*/
+.alto-img-card {
+    height: 20vh;
 }
 
 @media screen and (max-width: 320px) {
-
-   /* h1 {
-        font-size: 2.1rem !important;
+    /*propiedad para logo en versión mobile*/
+    h1 {
+        text-align: left;
         line-height : 2.9rem;
+        padding-left: 0rem;
     }
-    
-    .navbar-brand {
-      margin-left: 1rem;
+
+    /*propiedad para ícono de logo en versión mobile*/
+    .logo {
+      padding-top: 0.5rem;
     }
-  
-    footer img {
-    width: 2.2rem;
-    padding-top: 1rem;
-    padding-bottom: 0.6rem;
+
+    /*propiedad para dar altura a la imagen de la card en mobile*/
+    .alto-img-card {
+        height: 30vh;
     }
-    */
-    .card-img-top {
-        height: 40vh;
-    }
-    
- 
- 
-  }
+
+}
